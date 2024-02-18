@@ -2,22 +2,22 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #68082e;
 }
 
 .container {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #b6959c;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(234, 120, 215, 0.1);
 }
 
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color: #461023;
 }
 
 .form-container {
@@ -31,14 +31,14 @@ h1 {
 .form-group label {
     display: block;
     margin-bottom: 5px;
-    color: #333;
+    color: #000000;
 }
 
 .form-group input,
 .form-group select {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #702e51dd;
     border-radius: 5px;
 }
 
@@ -49,8 +49,8 @@ h1 {
 .form-group button {
     width: 100%;
     padding: 10px;
-    background-color: #333;
-    color: #fff;
+    background-color: #4c223f;
+    color: #edcedd;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -58,7 +58,7 @@ h1 {
 }
 
 .form-group button:hover {
-    background-color: #555;
+    background-color: #820c47;
 }
 
 .table-container {
@@ -78,16 +78,6 @@ table td {
 }
 
 table th {
-    background-color: #333;
-    color: #fff;
-}
-.watermark {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
+    background-color: #9e8199;
+    color: #0f0f0f;
 }
